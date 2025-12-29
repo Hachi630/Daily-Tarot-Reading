@@ -3,547 +3,968 @@
     "id": "major_0",
     "name_en": "The Fool",
     "name_cn": "愚人",
-    "image_url": "the_fool.jpg",
-    "keywords": ["New Beginnings", "Innocence", "Spontaneity", "Free Spirit"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/fool.jpg",
+    "keywords": [
+      "New Beginnings",
+      "Innocence",
+      "Spontaneity",
+      "Free Spirit"
+    ]
   },
   {
     "id": "major_1",
     "name_en": "The Magician",
     "name_cn": "魔术师",
-    "image_url": "the_magician.jpg",
-    "keywords": ["Manifestation", "Resourcefulness", "Power", "Inspired Action"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/magician.jpg",
+    "keywords": [
+      "Manifestation",
+      "Resourcefulness",
+      "Power",
+      "Inspired Action"
+    ]
   },
   {
     "id": "major_2",
     "name_en": "The High Priestess",
     "name_cn": "女祭司",
-    "image_url": "the_high_priestess.jpg",
-    "keywords": ["Intuition", "Unconscious", "Inner Voice", "Divine Feminine"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/high-priestess.jpg",
+    "keywords": [
+      "Intuition",
+      "Unconscious",
+      "Inner Voice",
+      "Divine Feminine"
+    ]
   },
   {
     "id": "major_3",
     "name_en": "The Empress",
     "name_cn": "皇后",
-    "image_url": "the_empress.jpg",
-    "keywords": ["Femininity", "Beauty", "Nature", "Nurturing", "Abundance"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/empress.jpg",
+    "keywords": [
+      "Femininity",
+      "Beauty",
+      "Nature",
+      "Nurturing",
+      "Abundance"
+    ]
   },
   {
     "id": "major_4",
     "name_en": "The Emperor",
     "name_cn": "皇帝",
-    "image_url": "the_emperor.jpg",
-    "keywords": ["Authority", "Establishment", "Structure", "Father Figure"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/emperor.jpg",
+    "keywords": [
+      "Authority",
+      "Establishment",
+      "Structure",
+      "Father Figure"
+    ]
   },
   {
     "id": "major_5",
     "name_en": "The Hierophant",
     "name_cn": "教皇",
-    "image_url": "the_hierophant.jpg",
-    "keywords": ["Spiritual Wisdom", "Religious Beliefs", "Conformity", "Tradition"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/hierophant.jpg",
+    "keywords": [
+      "Spiritual Wisdom",
+      "Religious Beliefs",
+      "Conformity",
+      "Tradition"
+    ]
   },
   {
     "id": "major_6",
     "name_en": "The Lovers",
     "name_cn": "恋人",
-    "image_url": "the_lovers.jpg",
-    "keywords": ["Love", "Harmony", "Relationships", "Values Alignment", "Choices"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/lovers.jpg",
+    "keywords": [
+      "Love",
+      "Harmony",
+      "Relationships",
+      "Values Alignment",
+      "Choices"
+    ]
   },
   {
     "id": "major_7",
     "name_en": "The Chariot",
     "name_cn": "战车",
-    "image_url": "the_chariot.jpg",
-    "keywords": ["Control", "Willpower", "Success", "Action", "Determination"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/chariot.jpg",
+    "keywords": [
+      "Control",
+      "Willpower",
+      "Success",
+      "Action",
+      "Determination"
+    ]
   },
   {
     "id": "major_8",
     "name_en": "Strength",
     "name_cn": "力量",
-    "image_url": "strength.jpg",
-    "keywords": ["Strength", "Courage", "Persuasion", "Influence", "Compassion"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/strength.jpg",
+    "keywords": [
+      "Strength",
+      "Courage",
+      "Persuasion",
+      "Influence",
+      "Compassion"
+    ]
   },
   {
     "id": "major_9",
     "name_en": "The Hermit",
     "name_cn": "隐者",
-    "image_url": "the_hermit.jpg",
-    "keywords": ["Soul Searching", "Introspection", "Seeking Inner Counsel", "Guidance"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/hermit.jpg",
+    "keywords": [
+      "Soul Searching",
+      "Introspection",
+      "Seeking Inner Counsel",
+      "Guidance"
+    ]
   },
   {
     "id": "major_10",
     "name_en": "Wheel of Fortune",
     "name_cn": "命运之轮",
-    "image_url": "wheel_of_fortune.jpg",
-    "keywords": ["Good Luck", "Karma", "Life Cycles", "Destiny", "A Turning Point"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/wheel-of-fortune.jpg",
+    "keywords": [
+      "Good Luck",
+      "Karma",
+      "Life Cycles",
+      "Destiny",
+      "A Turning Point"
+    ]
   },
   {
     "id": "major_11",
     "name_en": "Justice",
     "name_cn": "正义",
-    "image_url": "justice.jpg",
-    "keywords": ["Justice", "Fairness", "Truth", "Cause and Effect", "Law"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/justice.jpg",
+    "keywords": [
+      "Justice",
+      "Fairness",
+      "Truth",
+      "Cause and Effect",
+      "Law"
+    ]
   },
   {
     "id": "major_12",
     "name_en": "The Hanged Man",
     "name_cn": "倒吊人",
-    "image_url": "the_hanged_man.jpg",
-    "keywords": ["Pause", "Surrender", "Letting Go", "New Perspectives"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/hanged-man.jpg",
+    "keywords": [
+      "Pause",
+      "Surrender",
+      "Letting Go",
+      "New Perspectives"
+    ]
   },
   {
     "id": "major_13",
     "name_en": "Death",
     "name_cn": "死神",
-    "image_url": "death.jpg",
-    "keywords": ["Endings", "Change", "Transformation", "Transition"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/death.jpg",
+    "keywords": [
+      "Endings",
+      "Change",
+      "Transformation",
+      "Transition"
+    ]
   },
   {
     "id": "major_14",
     "name_en": "Temperance",
     "name_cn": "节制",
-    "image_url": "temperance.jpg",
-    "keywords": ["Balance", "Moderation", "Patience", "Purpose"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/temperance.jpg",
+    "keywords": [
+      "Balance",
+      "Moderation",
+      "Patience",
+      "Purpose"
+    ]
   },
   {
     "id": "major_15",
     "name_en": "The Devil",
     "name_cn": "恶魔",
-    "image_url": "the_devil.jpg",
-    "keywords": ["Shadow Self", "Attachment", "Addiction", "Restriction", "Boundaries"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/devil.jpg",
+    "keywords": [
+      "Shadow Self",
+      "Attachment",
+      "Addiction",
+      "Restriction",
+      "Boundaries"
+    ]
   },
   {
     "id": "major_16",
     "name_en": "The Tower",
     "name_cn": "高塔",
-    "image_url": "the_tower.jpg",
-    "keywords": ["Sudden Change", "Upheaval", "Chaos", "Revelation", "Awakening"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/tower.jpg",
+    "keywords": [
+      "Sudden Change",
+      "Upheaval",
+      "Chaos",
+      "Revelation",
+      "Awakening"
+    ]
   },
   {
     "id": "major_17",
     "name_en": "The Star",
     "name_cn": "星星",
-    "image_url": "the_star.jpg",
-    "keywords": ["Hope", "Faith", "Purpose", "Renewal", "Inspiration"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/star.jpg",
+    "keywords": [
+      "Hope",
+      "Faith",
+      "Purpose",
+      "Renewal",
+      "Inspiration"
+    ]
   },
   {
     "id": "major_18",
     "name_en": "The Moon",
     "name_cn": "月亮",
-    "image_url": "the_moon.jpg",
-    "keywords": ["Illusion", "Fear", "Anxiety", "Subconscious", "Intuition"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/moon.jpg",
+    "keywords": [
+      "Illusion",
+      "Fear",
+      "Anxiety",
+      "Subconscious",
+      "Intuition"
+    ]
   },
   {
     "id": "major_19",
     "name_en": "The Sun",
     "name_cn": "太阳",
-    "image_url": "the_sun.jpg",
-    "keywords": ["Positivity", "Fun", "Warmth", "Success", "Vitality"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/sun.jpg",
+    "keywords": [
+      "Positivity",
+      "Fun",
+      "Warmth",
+      "Success",
+      "Vitality"
+    ]
   },
   {
     "id": "major_20",
     "name_en": "Judgement",
     "name_cn": "审判",
-    "image_url": "judgement.jpg",
-    "keywords": ["Judgement", "Reflection", "Evaluation", "Awakening", "Absolution"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/judgement.jpg",
+    "keywords": [
+      "Judgement",
+      "Reflection",
+      "Evaluation",
+      "Awakening",
+      "Absolution"
+    ]
   },
   {
     "id": "major_21",
     "name_en": "The World",
     "name_cn": "世界",
-    "image_url": "the_world.jpg",
-    "keywords": ["Completion", "Accomplishment", "Fulfillment", "Travel", "Integration"]
+    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/world.jpg",
+    "keywords": [
+      "Completion",
+      "Accomplishment",
+      "Fulfillment",
+      "Travel",
+      "Integration"
+    ]
   },
   {
     "id": "cups_ace",
     "name_en": "Ace of Cups",
     "name_cn": "圣杯王牌",
     "image_url": "ace_of_cups.jpg",
-    "keywords": ["New Feelings", "Spirituality", "Intuition", "Intimacy", "Openness"]
+    "keywords": [
+      "New Feelings",
+      "Spirituality",
+      "Intuition",
+      "Intimacy",
+      "Openness"
+    ]
   },
   {
     "id": "cups_02",
     "name_en": "Two of Cups",
     "name_cn": "圣杯二",
     "image_url": "two_of_cups.jpg",
-    "keywords": ["Unified Love", "Partnership", "Mutual Attraction", "Connection"]
+    "keywords": [
+      "Unified Love",
+      "Partnership",
+      "Mutual Attraction",
+      "Connection"
+    ]
   },
   {
     "id": "cups_03",
     "name_en": "Three of Cups",
     "name_cn": "圣杯三",
     "image_url": "three_of_cups.jpg",
-    "keywords": ["Friendship", "Community", "Celebration", "Collaboration"]
+    "keywords": [
+      "Friendship",
+      "Community",
+      "Celebration",
+      "Collaboration"
+    ]
   },
   {
     "id": "cups_04",
     "name_en": "Four of Cups",
     "name_cn": "圣杯四",
     "image_url": "four_of_cups.jpg",
-    "keywords": ["Meditation", "Contemplation", "Apathy", "Reevaluation"]
+    "keywords": [
+      "Meditation",
+      "Contemplation",
+      "Apathy",
+      "Reevaluation"
+    ]
   },
   {
     "id": "cups_05",
     "name_en": "Five of Cups",
     "name_cn": "圣杯五",
     "image_url": "five_of_cups.jpg",
-    "keywords": ["Loss", "Grief", "Disappointment", "Regret", "Despair"]
+    "keywords": [
+      "Loss",
+      "Grief",
+      "Disappointment",
+      "Regret",
+      "Despair"
+    ]
   },
   {
     "id": "cups_06",
     "name_en": "Six of Cups",
     "name_cn": "圣杯六",
     "image_url": "six_of_cups.jpg",
-    "keywords": ["Revisiting the Past", "Childhood Memories", "Innocence", "Joy"]
+    "keywords": [
+      "Revisiting the Past",
+      "Childhood Memories",
+      "Innocence",
+      "Joy"
+    ]
   },
   {
     "id": "cups_07",
     "name_en": "Seven of Cups",
     "name_cn": "圣杯七",
     "image_url": "seven_of_cups.jpg",
-    "keywords": ["Opportunities", "Choices", "Wishful Thinking", "Illusion"]
+    "keywords": [
+      "Opportunities",
+      "Choices",
+      "Wishful Thinking",
+      "Illusion"
+    ]
   },
   {
     "id": "cups_08",
     "name_en": "Eight of Cups",
     "name_cn": "圣杯八",
     "image_url": "eight_of_cups.jpg",
-    "keywords": ["Disappointment", "Abandonment", "Withdrawal", "Escapism"]
+    "keywords": [
+      "Disappointment",
+      "Abandonment",
+      "Withdrawal",
+      "Escapism"
+    ]
   },
   {
     "id": "cups_09",
     "name_en": "Nine of Cups",
     "name_cn": "圣杯九",
     "image_url": "nine_of_cups.jpg",
-    "keywords": ["Contentment", "Satisfaction", "Gratitude", "Wish Fulfillment"]
+    "keywords": [
+      "Contentment",
+      "Satisfaction",
+      "Gratitude",
+      "Wish Fulfillment"
+    ]
   },
   {
     "id": "cups_10",
     "name_en": "Ten of Cups",
     "name_cn": "圣杯十",
     "image_url": "ten_of_cups.jpg",
-    "keywords": ["Divine Love", "Blissful Relationships", "Harmony", "Alignment"]
+    "keywords": [
+      "Divine Love",
+      "Blissful Relationships",
+      "Harmony",
+      "Alignment"
+    ]
   },
   {
     "id": "cups_page",
     "name_en": "Page of Cups",
     "name_cn": "圣杯侍者",
     "image_url": "page_of_cups.jpg",
-    "keywords": ["Creative Opportunities", "Intuitive Messages", "Curiosity", "New Feelings"]
+    "keywords": [
+      "Creative Opportunities",
+      "Intuitive Messages",
+      "Curiosity",
+      "New Feelings"
+    ]
   },
   {
     "id": "cups_knight",
     "name_en": "Knight of Cups",
     "name_cn": "圣杯骑士",
     "image_url": "knight_of_cups.jpg",
-    "keywords": ["Following the Heart", "Idealist", "Romantic", "Charming"]
+    "keywords": [
+      "Following the Heart",
+      "Idealist",
+      "Romantic",
+      "Charming"
+    ]
   },
   {
     "id": "cups_queen",
     "name_en": "Queen of Cups",
     "name_cn": "圣杯皇后",
     "image_url": "queen_of_cups.jpg",
-    "keywords": ["Compassion", "Emotional Security", "Intuition", "Caring"]
+    "keywords": [
+      "Compassion",
+      "Emotional Security",
+      "Intuition",
+      "Caring"
+    ]
   },
   {
     "id": "cups_king",
     "name_en": "King of Cups",
     "name_cn": "圣杯国王",
     "image_url": "king_of_cups.jpg",
-    "keywords": ["Emotional Balance", "Compassion", "Diplomacy", "Control"]
+    "keywords": [
+      "Emotional Balance",
+      "Compassion",
+      "Diplomacy",
+      "Control"
+    ]
   },
   {
     "id": "wands_ace",
     "name_en": "Ace of Wands",
     "name_cn": "权杖王牌",
     "image_url": "ace_of_wands.jpg",
-    "keywords": ["Creation", "Willpower", "Inspiration", "Desire", "New Passion"]
+    "keywords": [
+      "Creation",
+      "Willpower",
+      "Inspiration",
+      "Desire",
+      "New Passion"
+    ]
   },
   {
     "id": "wands_02",
     "name_en": "Two of Wands",
     "name_cn": "权杖二",
     "image_url": "two_of_wands.jpg",
-    "keywords": ["Planning", "Making Plans", "First Steps", "Discovery"]
+    "keywords": [
+      "Planning",
+      "Making Plans",
+      "First Steps",
+      "Discovery"
+    ]
   },
   {
     "id": "wands_03",
     "name_en": "Three of Wands",
     "name_cn": "权杖三",
     "image_url": "three_of_wands.jpg",
-    "keywords": ["Looking Ahead", "Expansion", "Rapid Growth", "Exploration"]
+    "keywords": [
+      "Looking Ahead",
+      "Expansion",
+      "Rapid Growth",
+      "Exploration"
+    ]
   },
   {
     "id": "wands_04",
     "name_en": "Four of Wands",
     "name_cn": "权杖四",
     "image_url": "four_of_wands.jpg",
-    "keywords": ["Celebration", "Harmony", "Marriage", "Home", "Community"]
+    "keywords": [
+      "Celebration",
+      "Harmony",
+      "Marriage",
+      "Home",
+      "Community"
+    ]
   },
   {
     "id": "wands_05",
     "name_en": "Five of Wands",
     "name_cn": "权杖五",
     "image_url": "five_of_wands.jpg",
-    "keywords": ["Disagreement", "Competition", "Strife", "Tension", "Conflict"]
+    "keywords": [
+      "Disagreement",
+      "Competition",
+      "Strife",
+      "Tension",
+      "Conflict"
+    ]
   },
   {
     "id": "wands_06",
     "name_en": "Six of Wands",
     "name_cn": "权杖六",
     "image_url": "six_of_wands.jpg",
-    "keywords": ["Victory", "Success", "Public Recognition", "Progress", "Self-Confidence"]
+    "keywords": [
+      "Victory",
+      "Success",
+      "Public Recognition",
+      "Progress",
+      "Self-Confidence"
+    ]
   },
   {
     "id": "wands_07",
     "name_en": "Seven of Wands",
     "name_cn": "权杖七",
     "image_url": "seven_of_wands.jpg",
-    "keywords": ["Challenge", "Competition", "Perseverance", "Defending Position"]
+    "keywords": [
+      "Challenge",
+      "Competition",
+      "Perseverance",
+      "Defending Position"
+    ]
   },
   {
     "id": "wands_08",
     "name_en": "Eight of Wands",
     "name_cn": "权杖八",
     "image_url": "eight_of_wands.jpg",
-    "keywords": ["Rapid Action", "Movement", "Quick Decisions", "Speed"]
+    "keywords": [
+      "Rapid Action",
+      "Movement",
+      "Quick Decisions",
+      "Speed"
+    ]
   },
   {
     "id": "wands_09",
     "name_en": "Nine of Wands",
     "name_cn": "权杖九",
     "image_url": "nine_of_wands.jpg",
-    "keywords": ["Resilience", "Grit", "Last Stand", "Perseverance", "Boundaries"]
+    "keywords": [
+      "Resilience",
+      "Grit",
+      "Last Stand",
+      "Perseverance",
+      "Boundaries"
+    ]
   },
   {
     "id": "wands_10",
     "name_en": "Ten of Wands",
     "name_cn": "权杖十",
     "image_url": "ten_of_wands.jpg",
-    "keywords": ["Burden", "Extra Responsibility", "Hard Work", "Overscheduling"]
+    "keywords": [
+      "Burden",
+      "Extra Responsibility",
+      "Hard Work",
+      "Overscheduling"
+    ]
   },
   {
     "id": "wands_page",
     "name_en": "Page of Wands",
     "name_cn": "权杖侍者",
     "image_url": "page_of_wands.jpg",
-    "keywords": ["Exploration", "Excitement", "Freedom", "Free Spirit", "Discovery"]
+    "keywords": [
+      "Exploration",
+      "Excitement",
+      "Freedom",
+      "Free Spirit",
+      "Discovery"
+    ]
   },
   {
     "id": "wands_knight",
     "name_en": "Knight of Wands",
     "name_cn": "权杖骑士",
     "image_url": "knight_of_wands.jpg",
-    "keywords": ["Action", "Adventure", "Impulsiveness", "Free Spirit"]
+    "keywords": [
+      "Action",
+      "Adventure",
+      "Impulsiveness",
+      "Free Spirit"
+    ]
   },
   {
     "id": "wands_queen",
     "name_en": "Queen of Wands",
     "name_cn": "权杖皇后",
     "image_url": "queen_of_wands.jpg",
-    "keywords": ["Courage", "Determination", "Joy", "Vibrancy", "Radiance"]
+    "keywords": [
+      "Courage",
+      "Determination",
+      "Joy",
+      "Vibrancy",
+      "Radiance"
+    ]
   },
   {
     "id": "wands_king",
     "name_en": "King of Wands",
     "name_cn": "权杖国王",
     "image_url": "king_of_wands.jpg",
-    "keywords": ["Natural Leader", "Vision", "Entrepreneur", "Honor"]
+    "keywords": [
+      "Natural Leader",
+      "Vision",
+      "Entrepreneur",
+      "Honor"
+    ]
   },
   {
     "id": "swords_ace",
     "name_en": "Ace of Swords",
     "name_cn": "宝剑王牌",
     "image_url": "ace_of_swords.jpg",
-    "keywords": ["Breakthrough", "Clarity", "Sharp Mind", "New Idea", "Mental Clarity"]
+    "keywords": [
+      "Breakthrough",
+      "Clarity",
+      "Sharp Mind",
+      "New Idea",
+      "Mental Clarity"
+    ]
   },
   {
     "id": "swords_02",
     "name_en": "Two of Swords",
     "name_cn": "宝剑二",
     "image_url": "two_of_swords.jpg",
-    "keywords": ["Difficult Choices", "Indecision", "Stalemate", "Blocked Emotions"]
+    "keywords": [
+      "Difficult Choices",
+      "Indecision",
+      "Stalemate",
+      "Blocked Emotions"
+    ]
   },
   {
     "id": "swords_03",
     "name_en": "Three of Swords",
     "name_cn": "宝剑三",
     "image_url": "three_of_swords.jpg",
-    "keywords": ["Heartbreak", "Emotional Pain", "Sorrow", "Grief", "Betrayal"]
+    "keywords": [
+      "Heartbreak",
+      "Emotional Pain",
+      "Sorrow",
+      "Grief",
+      "Betrayal"
+    ]
   },
   {
     "id": "swords_04",
     "name_en": "Four of Swords",
     "name_cn": "宝剑四",
     "image_url": "four_of_swords.jpg",
-    "keywords": ["Rest", "Restoration", "Contemplation", "Peace", "Recovery"]
+    "keywords": [
+      "Rest",
+      "Restoration",
+      "Contemplation",
+      "Peace",
+      "Recovery"
+    ]
   },
   {
     "id": "swords_05",
     "name_en": "Five of Swords",
     "name_cn": "宝剑五",
     "image_url": "five_of_swords.jpg",
-    "keywords": ["Unbridled Ambition", "Win at All Costs", "Betrayal", "Sneakiness"]
+    "keywords": [
+      "Unbridled Ambition",
+      "Win at All Costs",
+      "Betrayal",
+      "Sneakiness"
+    ]
   },
   {
     "id": "swords_06",
     "name_en": "Six of Swords",
     "name_cn": "宝剑六",
     "image_url": "six_of_swords.jpg",
-    "keywords": ["Transition", "Leaving Behind", "Moving On", "Distance"]
+    "keywords": [
+      "Transition",
+      "Leaving Behind",
+      "Moving On",
+      "Distance"
+    ]
   },
   {
     "id": "swords_07",
     "name_en": "Seven of Swords",
     "name_cn": "宝剑七",
     "image_url": "seven_of_swords.jpg",
-    "keywords": ["Deception", "Trickery", "Tactics", "Strategy", "Betrayal"]
+    "keywords": [
+      "Deception",
+      "Trickery",
+      "Tactics",
+      "Strategy",
+      "Betrayal"
+    ]
   },
   {
     "id": "swords_08",
     "name_en": "Eight of Swords",
     "name_cn": "宝剑八",
     "image_url": "eight_of_swords.jpg",
-    "keywords": ["Imprisonment", "Entrapment", "Self-Victimization", "Powerlessness"]
+    "keywords": [
+      "Imprisonment",
+      "Entrapment",
+      "Self-Victimization",
+      "Powerlessness"
+    ]
   },
   {
     "id": "swords_09",
     "name_en": "Nine of Swords",
     "name_cn": "宝剑九",
     "image_url": "nine_of_swords.jpg",
-    "keywords": ["Anxiety", "Worry", "Fear", "Depression", "Nightmares"]
+    "keywords": [
+      "Anxiety",
+      "Worry",
+      "Fear",
+      "Depression",
+      "Nightmares"
+    ]
   },
   {
     "id": "swords_10",
     "name_en": "Ten of Swords",
     "name_cn": "宝剑十",
     "image_url": "ten_of_swords.jpg",
-    "keywords": ["Betrayal", "Back-stabbing", "Loss", "Defeat", "Crisis"]
+    "keywords": [
+      "Betrayal",
+      "Back-stabbing",
+      "Loss",
+      "Defeat",
+      "Crisis"
+    ]
   },
   {
     "id": "swords_page",
     "name_en": "Page of Swords",
     "name_cn": "宝剑侍者",
     "image_url": "page_of_swords.jpg",
-    "keywords": ["New Ideas", "Curiosity", "Restlessness", "Mental Energy"]
+    "keywords": [
+      "New Ideas",
+      "Curiosity",
+      "Restlessness",
+      "Mental Energy"
+    ]
   },
   {
     "id": "swords_knight",
     "name_en": "Knight of Swords",
     "name_cn": "宝剑骑士",
     "image_url": "knight_of_swords.jpg",
-    "keywords": ["Action", "Impulsiveness", "Haste", "No Direction"]
+    "keywords": [
+      "Action",
+      "Impulsiveness",
+      "Haste",
+      "No Direction"
+    ]
   },
   {
     "id": "swords_queen",
     "name_en": "Queen of Swords",
     "name_cn": "宝剑皇后",
     "image_url": "queen_of_swords.jpg",
-    "keywords": ["Clarity", "Direct Communication", "Honest", "Independent"]
+    "keywords": [
+      "Clarity",
+      "Direct Communication",
+      "Honest",
+      "Independent"
+    ]
   },
   {
     "id": "swords_king",
     "name_en": "King of Swords",
     "name_cn": "宝剑国王",
     "image_url": "king_of_swords.jpg",
-    "keywords": ["Mental Clarity", "Intellectual Power", "Authority", "Truth"]
+    "keywords": [
+      "Mental Clarity",
+      "Intellectual Power",
+      "Authority",
+      "Truth"
+    ]
   },
   {
     "id": "pentacles_ace",
     "name_en": "Ace of Pentacles",
     "name_cn": "星币王牌",
     "image_url": "ace_of_pentacles.jpg",
-    "keywords": ["New Opportunity", "Manifestation", "Abundance", "Financial Opportunity"]
+    "keywords": [
+      "New Opportunity",
+      "Manifestation",
+      "Abundance",
+      "Financial Opportunity"
+    ]
   },
   {
     "id": "pentacles_02",
     "name_en": "Two of Pentacles",
     "name_cn": "星币二",
     "image_url": "two_of_pentacles.jpg",
-    "keywords": ["Priorities", "Adapting", "Time Management", "Balance"]
+    "keywords": [
+      "Priorities",
+      "Adapting",
+      "Time Management",
+      "Balance"
+    ]
   },
   {
     "id": "pentacles_03",
     "name_en": "Three of Pentacles",
     "name_cn": "星币三",
     "image_url": "three_of_pentacles.jpg",
-    "keywords": ["Teamwork", "Collaboration", "Building", "Learning"]
+    "keywords": [
+      "Teamwork",
+      "Collaboration",
+      "Building",
+      "Learning"
+    ]
   },
   {
     "id": "pentacles_04",
     "name_en": "Four of Pentacles",
     "name_cn": "星币四",
     "image_url": "four_of_pentacles.jpg",
-    "keywords": ["Saving Money", "Security", "Conservation", "Stinginess"]
+    "keywords": [
+      "Saving Money",
+      "Security",
+      "Conservation",
+      "Stinginess"
+    ]
   },
   {
     "id": "pentacles_05",
     "name_en": "Five of Pentacles",
     "name_cn": "星币五",
     "image_url": "five_of_pentacles.jpg",
-    "keywords": ["Need", "Poverty", "Insecurity", "Isolation", "Worry"]
+    "keywords": [
+      "Need",
+      "Poverty",
+      "Insecurity",
+      "Isolation",
+      "Worry"
+    ]
   },
   {
     "id": "pentacles_06",
     "name_en": "Six of Pentacles",
     "name_cn": "星币六",
     "image_url": "six_of_pentacles.jpg",
-    "keywords": ["Giving", "Receiving", "Sharing Wealth", "Generosity", "Charity"]
+    "keywords": [
+      "Giving",
+      "Receiving",
+      "Sharing Wealth",
+      "Generosity",
+      "Charity"
+    ]
   },
   {
     "id": "pentacles_07",
     "name_en": "Seven of Pentacles",
     "name_cn": "星币七",
     "image_url": "seven_of_pentacles.jpg",
-    "keywords": ["Long-term View", "Sustainable Results", "Perseverance", "Investment"]
+    "keywords": [
+      "Long-term View",
+      "Sustainable Results",
+      "Perseverance",
+      "Investment"
+    ]
   },
   {
     "id": "pentacles_08",
     "name_en": "Eight of Pentacles",
     "name_cn": "星币八",
     "image_url": "eight_of_pentacles.jpg",
-    "keywords": ["Skill Development", "Quality", "Mastery", "Dedication"]
+    "keywords": [
+      "Skill Development",
+      "Quality",
+      "Mastery",
+      "Dedication"
+    ]
   },
   {
     "id": "pentacles_09",
     "name_en": "Nine of Pentacles",
     "name_cn": "星币九",
     "image_url": "nine_of_pentacles.jpg",
-    "keywords": ["Abundance", "Financial Security", "Self-Sufficiency", "Rewards"]
+    "keywords": [
+      "Abundance",
+      "Financial Security",
+      "Self-Sufficiency",
+      "Rewards"
+    ]
   },
   {
     "id": "pentacles_10",
     "name_en": "Ten of Pentacles",
     "name_cn": "星币十",
     "image_url": "ten_of_pentacles.jpg",
-    "keywords": ["Wealth", "Financial Security", "Family", "Long-term Success", "Contribution"]
+    "keywords": [
+      "Wealth",
+      "Financial Security",
+      "Family",
+      "Long-term Success",
+      "Contribution"
+    ]
   },
   {
     "id": "pentacles_page",
     "name_en": "Page of Pentacles",
     "name_cn": "星币侍者",
     "image_url": "page_of_pentacles.jpg",
-    "keywords": ["Manifestation", "Financial Opportunity", "Skill Development", "New Job"]
+    "keywords": [
+      "Manifestation",
+      "Financial Opportunity",
+      "Skill Development",
+      "New Job"
+    ]
   },
   {
     "id": "pentacles_knight",
     "name_en": "Knight of Pentacles",
     "name_cn": "星币骑士",
     "image_url": "knight_of_pentacles.jpg",
-    "keywords": ["Efficiency", "Hard Work", "Responsibility", "Routine"]
+    "keywords": [
+      "Efficiency",
+      "Hard Work",
+      "Responsibility",
+      "Routine"
+    ]
   },
   {
     "id": "pentacles_queen",
     "name_en": "Queen of Pentacles",
     "name_cn": "星币皇后",
     "image_url": "queen_of_pentacles.jpg",
-    "keywords": ["Practicality", "Creature Comforts", "Financial Security", "Nurturing"]
+    "keywords": [
+      "Practicality",
+      "Creature Comforts",
+      "Financial Security",
+      "Nurturing"
+    ]
   },
   {
     "id": "pentacles_king",
     "name_en": "King of Pentacles",
     "name_cn": "星币国王",
     "image_url": "king_of_pentacles.jpg",
-    "keywords": ["Abundance", "Financial Security", "Leadership", "Security", "Discipline"]
+    "keywords": [
+      "Abundance",
+      "Financial Security",
+      "Leadership",
+      "Security",
+      "Discipline"
+    ]
   }
 ]
-

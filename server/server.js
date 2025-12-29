@@ -1,9 +1,16 @@
+// 必须在所有其他导入之前加载环境变量
+import dotenv from 'dotenv';
+dotenv.config();
+
 import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
 import { createReading } from './services/geminiService.js';
 
-dotenv.config();
+// 验证环境变量
+if (!process.env.GOOGLE_GEMINI_API_KEY) {
+  console.error('❌ 警告: GOOGLE_GEMINI_API_KEY 未设置！');
+  console.error('请在 server/.env 文件中设置 GOOGLE_GEMINI_API_KEY');
+}
 
 const app = express();
 const PORT = process.env.PORT || 3000;

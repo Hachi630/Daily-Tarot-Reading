@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
+import { getTarotImageUrl } from '../utils/updateTarotImages';
 
 export default function Card({ card, isReversed, isFlipped, onFlip, index }) {
-  const imagePath = `/assets/${card.image_url}`;
+  // 使用工具函数获取图片 URL（支持在线和本地）
+  const imagePath = getTarotImageUrl(card.image_url);
 
   return (
     <motion.div
@@ -38,8 +40,23 @@ export default function Card({ card, isReversed, isFlipped, onFlip, index }) {
             backgroundImage: 'radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.3) 0%, transparent 70%)',
           }}
         >
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-6xl text-yellow-400/50">🔮</div>
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
+            <div className="text-6xl text-yellow-400/50 mb-4">🔮</div>
+            {card.keywords && card.keywords.length > 0 && (
+              <div className="text-center">
+                <div className="text-xs text-yellow-300/80 font-semibold mb-2">关键词</div>
+                <div className="flex flex-wrap gap-1 justify-center max-w-full">
+                  {card.keywords.slice(0, 3).map((keyword, idx) => (
+                    <span
+                      key={idx}
+                      className="text-[10px] text-yellow-200/70 bg-purple-800/50 px-2 py-1 rounded"
+                    >
+                      {keyword}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
