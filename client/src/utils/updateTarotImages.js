@@ -104,15 +104,7 @@ export function getTarotImageUrl(imageUrl) {
     return imageUrl;
   }
   
-  // 提取文件名（不含扩展名）
-  const fileName = imageUrl.replace(/\.(jpg|png|jpeg)$/i, '');
-  const apiName = cardNameMapping[fileName];
-  
-  if (apiName) {
-    // 使用第一个图片源（GitHub）
-    return `${IMAGE_SOURCES[0]}/${apiName}.jpg`;
-  }
-  
-  // 如果找不到映射，返回本地路径（作为后备）
+  // 优先使用本地图片（public/assets 目录）
+  // 图片应该放在 public/assets 目录下，可以通过 /assets/ 路径访问
   return `/assets/${imageUrl}`;
 }

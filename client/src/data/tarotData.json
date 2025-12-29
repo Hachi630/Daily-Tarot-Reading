@@ -3,7 +3,7 @@
     "id": "major_0",
     "name_en": "The Fool",
     "name_cn": "愚人",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/fool.jpg",
+    "image_url": "the_fool.jpg",
     "keywords": [
       "New Beginnings",
       "Innocence",
@@ -15,7 +15,7 @@
     "id": "major_1",
     "name_en": "The Magician",
     "name_cn": "魔术师",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/magician.jpg",
+    "image_url": "the_magician.jpg",
     "keywords": [
       "Manifestation",
       "Resourcefulness",
@@ -27,7 +27,7 @@
     "id": "major_2",
     "name_en": "The High Priestess",
     "name_cn": "女祭司",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/high-priestess.jpg",
+    "image_url": "the_high_priestess.jpg",
     "keywords": [
       "Intuition",
       "Unconscious",
@@ -39,7 +39,7 @@
     "id": "major_3",
     "name_en": "The Empress",
     "name_cn": "皇后",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/empress.jpg",
+    "image_url": "the_empress.jpg",
     "keywords": [
       "Femininity",
       "Beauty",
@@ -52,7 +52,7 @@
     "id": "major_4",
     "name_en": "The Emperor",
     "name_cn": "皇帝",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/emperor.jpg",
+    "image_url": "the_emperor.jpg",
     "keywords": [
       "Authority",
       "Establishment",
@@ -64,7 +64,7 @@
     "id": "major_5",
     "name_en": "The Hierophant",
     "name_cn": "教皇",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/hierophant.jpg",
+    "image_url": "the_hierophant.jpg",
     "keywords": [
       "Spiritual Wisdom",
       "Religious Beliefs",
@@ -76,7 +76,7 @@
     "id": "major_6",
     "name_en": "The Lovers",
     "name_cn": "恋人",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/lovers.jpg",
+    "image_url": "the_lovers.jpg",
     "keywords": [
       "Love",
       "Harmony",
@@ -89,7 +89,7 @@
     "id": "major_7",
     "name_en": "The Chariot",
     "name_cn": "战车",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/chariot.jpg",
+    "image_url": "the_chariot.jpg",
     "keywords": [
       "Control",
       "Willpower",
@@ -102,7 +102,7 @@
     "id": "major_8",
     "name_en": "Strength",
     "name_cn": "力量",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/strength.jpg",
+    "image_url": "strength.jpg",
     "keywords": [
       "Strength",
       "Courage",
@@ -115,7 +115,7 @@
     "id": "major_9",
     "name_en": "The Hermit",
     "name_cn": "隐者",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/hermit.jpg",
+    "image_url": "the_hermit.jpg",
     "keywords": [
       "Soul Searching",
       "Introspection",
@@ -127,7 +127,7 @@
     "id": "major_10",
     "name_en": "Wheel of Fortune",
     "name_cn": "命运之轮",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/wheel-of-fortune.jpg",
+    "image_url": "wheel_of_fortune.jpg",
     "keywords": [
       "Good Luck",
       "Karma",
@@ -140,7 +140,7 @@
     "id": "major_11",
     "name_en": "Justice",
     "name_cn": "正义",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/justice.jpg",
+    "image_url": "justice.jpg",
     "keywords": [
       "Justice",
       "Fairness",
@@ -153,7 +153,7 @@
     "id": "major_12",
     "name_en": "The Hanged Man",
     "name_cn": "倒吊人",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/hanged-man.jpg",
+    "image_url": "the_hanged_man.jpg",
     "keywords": [
       "Pause",
       "Surrender",
@@ -165,7 +165,7 @@
     "id": "major_13",
     "name_en": "Death",
     "name_cn": "死神",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/death.jpg",
+    "image_url": "death.jpg",
     "keywords": [
       "Endings",
       "Change",
@@ -177,7 +177,7 @@
     "id": "major_14",
     "name_en": "Temperance",
     "name_cn": "节制",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/temperance.jpg",
+    "image_url": "temperance.jpg",
     "keywords": [
       "Balance",
       "Moderation",
@@ -189,7 +189,7 @@
     "id": "major_15",
     "name_en": "The Devil",
     "name_cn": "恶魔",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/devil.jpg",
+    "image_url": "the_devil.jpg",
     "keywords": [
       "Shadow Self",
       "Attachment",
@@ -202,7 +202,7 @@
     "id": "major_16",
     "name_en": "The Tower",
     "name_cn": "高塔",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/tower.jpg",
+    "image_url": "the_tower.jpg",
     "keywords": [
       "Sudden Change",
       "Upheaval",
@@ -215,7 +215,7 @@
     "id": "major_17",
     "name_en": "The Star",
     "name_cn": "星星",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/star.jpg",
+    "image_url": "the_star.jpg",
     "keywords": [
       "Hope",
       "Faith",
@@ -228,7 +228,7 @@
     "id": "major_18",
     "name_en": "The Moon",
     "name_cn": "月亮",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/moon.jpg",
+    "image_url": "the_moon.jpg",
     "keywords": [
       "Illusion",
       "Fear",
@@ -241,7 +241,7 @@
     "id": "major_19",
     "name_en": "The Sun",
     "name_cn": "太阳",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/sun.jpg",
+    "image_url": "the_sun.jpg",
     "keywords": [
       "Positivity",
       "Fun",
@@ -254,7 +254,7 @@
     "id": "major_20",
     "name_en": "Judgement",
     "name_cn": "审判",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/judgement.jpg",
+    "image_url": "judgement.jpg",
     "keywords": [
       "Judgement",
       "Reflection",
@@ -267,7 +267,7 @@
     "id": "major_21",
     "name_en": "The World",
     "name_cn": "世界",
-    "image_url": "https://raw.githubusercontent.com/ekelen/tarot-api/main/images/rider-waite/world.jpg",
+    "image_url": "the_world.jpg",
     "keywords": [
       "Completion",
       "Accomplishment",

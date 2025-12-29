@@ -32,7 +32,8 @@ function initializeGemini() {
   }
 
   genAI = new GoogleGenerativeAI(apiKey);
-  // 使用 gemini-3-pro-preview，如果失败则回退到 gemini-1.5-pro
+  // 使用 gemini-3-pro-preview，如果失败则回退到其他可用模型
+  // 注意：根据 API 版本，可能需要使用不同的模型名称
   model = genAI.getGenerativeModel({ model: 'gemini-3-pro-preview' });
 }
 
@@ -49,44 +50,46 @@ export async function createReading(question, spreadType, cards) {
     return `${position}: ${card.name} - ${orientation}`;
   }).join('\n');
 
-  const systemPrompt = `You are an experienced and mystical Tarot reader with deep empathy and insight. Your readings are profound, compassionate, and transformative.
+  const systemPrompt = `你是一位经验丰富且神秘的塔罗占卜师，具有深刻的共情能力和洞察力。你的解读深刻、富有同情心且具有转化力。
 
-**CRITICAL INTERPRETATION RULES:**
+**重要：请使用中文回复所有内容。**
 
-1. **Reversed Cards (逆位) Meaning:**
-   - Reversed cards represent INTERNALIZED ENERGY, DELAYS, or BLOCKED ENERGY
-   - They do NOT mean "bad luck" or "negative outcomes"
-   - They indicate that the card's energy is turned inward, needs more time to manifest, or is being resisted
-   - Example: A reversed card might mean the person needs to work on themselves internally before the energy can flow outward
+**关键解读规则：**
 
-2. **Position Interpretation:**
-   - Past: What has led to the current situation
-   - Present: Current circumstances and energies
-   - Future: Potential outcomes and direction
-   - Result: Overall answer to the question
+1. **逆位牌（逆位）的含义：**
+   - 逆位牌代表"内化能量"、"延迟"或"受阻能量"
+   - 它们并不意味着"坏运气"或"负面结果"
+   - 它们表示牌的能量向内转化，需要更多时间才能显现，或者正在被抗拒
+   - 例如：逆位牌可能意味着这个人需要先在内在上完善自己，能量才能向外流动
 
-3. **Reading Style:**
-   - Be mystical yet practical
-   - Show deep empathy and understanding
-   - Provide actionable insights
-   - Use symbolic language but remain clear
-   - Connect the cards' meanings to the user's specific question
+2. **位置解读：**
+   - 过去：导致当前情况的原因
+   - 现在：当前的状况和能量
+   - 未来：潜在的结果和方向
+   - 结果：对问题的整体回答
 
-4. **Output Format:**
-   - Use clean Markdown formatting
-   - Include headings, paragraphs, and emphasis where appropriate
-   - Structure: Overview → Card-by-Card Analysis → Synthesis → Guidance
+3. **解读风格：**
+   - 神秘而实用
+   - 展现深刻的共情和理解
+   - 提供可行的建议
+   - 使用象征性语言但保持清晰
+   - 将牌的含义与提问者的具体问题联系起来
 
-Now, provide a comprehensive Tarot reading for the following:
+4. **输出格式：**
+   - 使用清晰的 Markdown 格式
+   - 包含标题、段落和适当的强调
+   - 结构：总体概述 → 逐张牌分析 → 综合分析 → 指导建议
 
-**Question:** ${question}
+现在，请为以下内容提供全面的塔罗解读：
 
-**Spread Type:** ${spreadType}
+**问题：** ${question}
 
-**Cards Drawn:**
+**牌阵类型：** ${spreadType}
+
+**抽到的牌：**
 ${cardsDescription}
 
-Provide a detailed, insightful reading that honors both the upright and reversed meanings of the cards, their positions, and how they relate to the questioner's situation.`;
+请提供详细、有洞察力的解读，尊重正位和逆位的含义，它们的位置，以及它们如何与提问者的情况相关。请使用中文回复。`;
 
   try {
     const result = await model.generateContent(systemPrompt);
@@ -96,28 +99,46 @@ Provide a detailed, insightful reading that honors both the upright and reversed
     console.error('Gemini API Error:', error);
     
     // 检查是否是 API key 问题
-    if (error.message && error.message.includes('API key not valid')) {
-      console.error('❌ API Key 无效！');
-      console.error('请检查：');
-      console.error('1. .env 文件中的 GOOGLE_GEMINI_API_KEY 是否正确');
-      console.error('2. API key 是否在 Google AI Studio 中有效');
-      console.error('3. API key 是否有访问 Gemini API 的权限');
-      console.error('4. 服务器是否已重启以加载新的环境变量');
-      throw new Error('API Key 无效。请检查 .env 文件中的 GOOGLE_GEMINI_API_KEY 配置，并确保服务器已重启。');
+    if (error.message && (error.message.includes('API key not valid') || error.message.includes('leaked') || error.message.includes('403'))) {
+      console.error('❌ API Key 问题！');
+      if (error.message.includes('leaked')) {
+        console.error('⚠️  API Key 被报告为泄露，请使用新的 API Key');
+        console.error('请访问 https://makersuite.google.com/app/apikey 创建新的 API Key');
+      } else {
+        console.error('请检查：');
+        console.error('1. .env 文件中的 GOOGLE_GEMINI_API_KEY 是否正确');
+        console.error('2. API key 是否在 Google AI Studio 中有效');
+        console.error('3. API key 是否有访问 Gemini API 的权限');
+        console.error('4. 服务器是否已重启以加载新的环境变量');
+      }
+      throw new Error('API Key 无效或已泄露。请访问 https://makersuite.google.com/app/apikey 创建新的 API Key，并更新 .env 文件。');
     }
     
     // 如果 gemini-3-pro-preview 失败，尝试备选模型
-    if (error.message && (error.message.includes('model') || error.message.includes('not found'))) {
-      console.log('尝试使用备选模型 gemini-1.5-pro...');
-      try {
-        const fallbackModel = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' });
-        const result = await fallbackModel.generateContent(systemPrompt);
-        const response = await result.response;
-        return response.text();
-      } catch (fallbackError) {
-        console.error('备选模型也失败:', fallbackError);
-        throw new Error(`Failed to generate reading: ${fallbackError.message}`);
+    if (error.message && (error.message.includes('model') || error.message.includes('not found') || error.message.includes('404') || error.message.includes('403'))) {
+      // 尝试多个备选模型，按优先级排序
+      const fallbackModels = ['gemini-pro', 'gemini-1.5-flash'];
+      
+      for (const modelName of fallbackModels) {
+        try {
+          console.log(`尝试使用备选模型 ${modelName}...`);
+          const fallbackModel = genAI.getGenerativeModel({ model: modelName });
+          const result = await fallbackModel.generateContent(systemPrompt);
+          const response = await result.response;
+          console.log(`✅ 成功使用模型: ${modelName}`);
+          return response.text();
+        } catch (fallbackError) {
+          console.log(`模型 ${modelName} 失败: ${fallbackError.message}`);
+          // 如果是 API key 问题，不再尝试其他模型
+          if (fallbackError.message && (fallbackError.message.includes('API key') || fallbackError.message.includes('leaked') || fallbackError.message.includes('403'))) {
+            throw fallbackError;
+          }
+          continue;
+        }
       }
+      
+      console.error('所有备选模型都失败');
+      throw new Error(`无法生成解读：所有模型都不可用。请检查 API key 是否有效，或访问 https://makersuite.google.com/app/apikey 创建新的 API Key。原始错误: ${error.message}`);
     }
     
     throw new Error(`Failed to generate reading: ${error.message}`);
