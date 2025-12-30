@@ -1,5 +1,7 @@
 # 🔮 神秘塔罗占卜 / Mystical Tarot AI
 
+已部署: daily-tarot-reading.vercel.app
+
 一个基于 React 和 Node.js 的塔罗占卜 Web 应用，集成 Google Gemini AI 提供智能解读。
 
 A React and Node.js based Tarot divination web application with Google Gemini AI integration for intelligent readings.
