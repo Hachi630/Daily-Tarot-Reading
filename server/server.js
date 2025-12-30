@@ -15,8 +15,19 @@ if (!process.env.GOOGLE_GEMINI_API_KEY) {
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
-app.use(cors());
+// Middleware - CORS 配置，明确允许 Vercel 域名
+app.use(cors({
+  origin: [
+    'https://daily-tarot-reading.vercel.app',
+    'https://daily-tarot-reading-git-main-deathnote.vercel.app',
+    'https://daily-tarot-reading-jf5g1sqsc-deathnote.vercel.app',
+    'http://localhost:5173', // 本地开发（Vite 默认端口）
+    'http://localhost:3000'  // 本地开发（后端端口）
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 
 // Health check endpoint
